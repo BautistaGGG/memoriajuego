@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { RefreshCw, Star, Clock, Trophy, Info } from 'lucide-react';
+import { RefreshCw, Star, Clock, Trophy, Info, Medal, BarChart, Zap, Settings, Crown } from 'lucide-react';
+import confetti from 'canvas-confetti';
+
 
 function App() {
   const [gamePhase, setGamePhase] = useState('welcome');
